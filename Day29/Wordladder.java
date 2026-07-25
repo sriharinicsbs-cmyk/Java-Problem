@@ -1,11 +1,8 @@
 package Day29;
 
 import java.util.*;
-
 public class Wordladder {
-
     public static int ladderLength(String beginWord, String endWord, List<String> wordList) {
-
         Set<String> set = new HashSet<>(wordList);
 
         if (!set.contains(endWord))
